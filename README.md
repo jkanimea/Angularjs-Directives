@@ -2,6 +2,8 @@
 
 This angularJs directive example was initially done by David Mosher. I have borrow his code because he got a excellent explanation on some advanced features in Angular, mapping from  HTML and explanation how this relates to angular directives, It also got some good  debugging techniques, tips and tricks. I had to modify initially to get working on web server using nodejs http.
 
+His [screencast](https://www.youtube.com/watch?v=Ty8XcASK9js)
+
 It covers:
 
 * html as a dsl
