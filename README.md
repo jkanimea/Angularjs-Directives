@@ -1,8 +1,8 @@
 # Directives with Angular JS
 
-This examines some of the more advanced features in Angular, specifically Directives and how we can leverage the power of custom elements and attributes to map Domain Specific concepts through HTML, translate those into Value Objects in our Domain, and gain rendered simple HTML output. Also discussed: complexity, creating a DSL with directives, debugging techniques, tips and tricks.
+This angularJs directive example was initially done by David Mosher. I have borrow his code because he got a excellent explanation on some advanced features in Angular, mapping from  HTML and explanation how this relates to angular directives, It also got some good  debugging techniques, tips and tricks. I had to modify initially to get working on web server using nodejs http.
 
-this screencast covers:
+It covers:
 
 * html as a dsl
 * abstractions in html
@@ -13,16 +13,7 @@ this screencast covers:
 * [requiring other directives](https://docs.angularjs.org/api/ng/service/$compile#-require-)
 * [directive communication ($scope.$broadcast, $scope.$on)](https://docs.angularjs.org/guide/scope#scope-events-propagation)
 
-# Running the Code Locally
 
-I like to use the npm module [serve]() for running a simple static webserver for projects like this:
-
-```shell
-npm i -g serve
-git clone git@github.com:davemo/advanced-directives-with-angular-js.git
-cd advanced-directives-with-angular-js
-serve
-```
 
 
 
